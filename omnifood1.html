@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMNIFOOD</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+  * {
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .container-fluid {
+    background-color: wheat;
+  }
+
+  .row a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav {
+    font-size: 1.2rem;
+    justify-content: right;
+  }
+
+  .btn {
+    border: none;
+    background-color: #ff5f1f;
+  }
+
+  .btn:hover {
+    background-color: orange;
+  }
+
+
+  .button {
+    background-color: white;
+  }
+
+  .profile-images {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-images img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-left: -10px;
+    object-fit: cover;
+
+  }
+
+  .profile-images img:first-child {
+    margin-left: 0;
+  }
+
+  .stats-text {
+    margin-left: 15px;
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .stats-text span {
+    font-weight: bold;
+    color: #d35400;
+
+  }
+
+  .underline-text {
+    display: inline-block;
+    border-bottom: 2px solid#d35400;
+    padding-bottom: 5px;
+  }
+</style>
+
+
+<body>
+  <!--Nav-bar-->
+  <main>
+    <div class="container-fluid">
+      <div class="container-fluid">
+        <div class="row h-100%">
+          <div class="col-sm-4 my-3"><img src="Omnifood Images/omnifood-logo.png" alt="omnifood logo" width="150px">
+          </div>
+          <div class="col-sm-8 my-3 nav">
+            <a href="#"><strong>How it works</strong></a>
+            <a href="#"><strong>Meals</strong></a>
+            <a href="#"><strong>Testimonials</strong></a>
+            <a href="#"><strong>Pricing</strong></a>
+            <button class=" btn btn-md mx-4 rounded text-white"><strong>Try for free</strong></button>
+          </div>
+        </div>
+
+        <!--Heading-->
+        <div class="container-fluid">
+          <div class="row mt-5">
+            <div class="col-md-6">
+              <h1 class="display-3"><strong>A healthy meal</strong></h1>
+              <h1 class="display-3"><strong>delivered to your</strong></h1>
+              <h1 class="display-3"><strong>door, every single day</strong></h1>
+              <br>
+              <p>The smart 365-days-per-year food subscription that will
+                make you eat healthy again. Tailored to your personal tastes
+                and nutritional needs.
+              </p>
+
+              <button class="btn rounded text-white p-2"><strong>Start eating well</strong></button>
+              <button class=" btn rounded text-black button mx-2 p-2"><strong>Learn More </strong> </button>
+
+              <!--profile img-->
+              <div class="profile-images mt-5">
+                <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="User 1" />
+                <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="User 2" />
+                <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="User 3" />
+                <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="User 4" />
+                <img src="https://randomuser.me/api/portraits/men/5.jpg" alt="User 5" />
+                <img src="https://randomuser.me/api/portraits/women/6.jpg" alt="User 6" />
+
+                <!-- Text -->
+                <div class="stats-text mt-5">
+                  <span>250,000+ </span><strong>meals delivered last year!</strong>
+                </div>
+              </div>
+            </div>
+
+            <!--Hero img-->
+            <div class="col-md-6">
+              <img src="Omnifood Images/hero.png" class="img-fluid" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--BRAND NAME-->
+    <div class="container">
+      <div class="text-center mt-5">
+        <p class="text-secondary"><small>AS FEATURED IN</small></p>
+      </div>
+      <div class="row mt-3">
+        <div class="col-sm-3"><img src="Omnifood Images/logos/techcrunch.png" alt="techcrunch" width="70%"></div>
+        <div class="col-sm-2"><img src="Omnifood Images/logos/business-insider.png" alt="business-insider" width="70%">
+        </div>
+        <div class="col-sm-2"><img src="Omnifood Images/logos/the-new-york-times.png" alt="the-new-york-times"
+            width="70%"></div>
+        <div class="col-sm-2"><img src="Omnifood Images/logos/forbes.png" alt="forbes" width="70%"></div>
+        <div class="col-sm-3"><img src="Omnifood Images/logos/usa-today.png" alt="usa-today" width="70%"></div>
+      </div>
+    </div>
+
+    <!-- text-->
+    <div class="container mt-5">
+      <div class="text-start">
+        <p>
+          <spam class="text" style="color: #ff5f1f;"><strong>HOW IT WORKS</strong></spam>
+        </p>
+        <p class="display-5" style="font-weight: bold;"><strong>Your daily dose of health in 3 simple steps</strong></p>
+      </div>
+    </div>
+
+    <!-- Application img-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 mt-5">
+          <p class="text-secondary display-3 mt-5" style="font-weight: bold;">01</p>
+          <p class=" display-6 "><strong style="font-weight: bold;">Tell us what you like (and what not)</strong></p>
+          <p>Never again waste time thinking about what to eat! Omnifood Al will create a 100% personalized weekly meal
+            plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you
+            follow!
+          </p>
+
+        </div>
+        <div class="col-sm-6 mt-5 d-flex justify-content-center align-items-center">
+          <img src="Omnifood Images/app/app-screen-1.png" alt="app1" height="500px">
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-6 mt-5 mb-5">
+          <img src="Omnifood Images/app/app-screen-2.png" class="mx-auto d-block" alt="app2" height="500px">
+        </div>
+
+        <div class="col-sm-6 mt-5">
+          <p class="text-secondary display-3 mt-5" style="font-weight: bold;">02</p>
+          <p class=" display-6 "><strong style="font-weight: bold;">Approve your weekly meal plan</strong></p>
+          <p>Once per week, approve the meal plan generated for you by Omnifood Al. You can change ingredients, swap
+            entire meals, or even add your own recipes.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 mt-5">
+          <p class="text-secondary display-3 mt-5" style="font-weight: bold;">03</p>
+          <p class=" display-6 "><strong style="font-weight: bold;">Receive meals at convenient time
+            </strong></p>
+          <p>Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever
+            works best for you. You can change delivery schedule and address daily!
+          </p>
+
+        </div>
+        <div class="col-sm-6 mt-5 d-flex justify-content-center align-items-center">
+          <img src="Omnifood Images/app/app-screen-3.png" alt="app1" height="500px">
+        </div>
+      </div>
+    </div>
+
+
+    <!--Card1-->
+    <div class="container mt-5">
+      <div class="text-center">
+        <p>
+          <spam style="color: #ff5f1f" ;><strong>MEALS</strong></spam>
+        </p>
+        <p class="display-5 mb-5"><strong style="font-weight: bold;">Omnifood AI chooses from 5000+recipes</strong></p>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-sm-4 ">
+          <div class="bg-white rounded shadow">
+            <div class="rounded">
+              <img src="Omnifood Images/meals/meal-1.jpg" class="rounded" alt="meal1" width="100%">
+            </div>
+            <div class="mt-4 p-3 px-5">
+              <button class="btn btn-sm bg-success rounded btn-success">VEGETARIAN</button>
+              <h3 style="font-weight: bold;">Japanese Gyozas</h3>
+
+              <p class="mt-4"><i class="fa-solid fa-fire" style="color: orangered; font-size: 20px;"></i> 659 calories
+              </p>
+
+              <p>
+                <i class="fa-solid fa-utensils" style="color:orangered; font-size:20px;"></i> NutriScore 74
+              </p>
+
+              <p><i class="fa-solid fa-star" style="color:orangered; font-size:20px;"></i>4.9 Rating (537)</p>
+
+            </div>
+          </div>
+        </div>
+
+        <!--card2-->
+        <div class="col-sm-4">
+          <div class="bg-white rounded shadow">
+            <div class="rounded">
+              <img src="Omnifood Images/meals/meal-2.jpg" class="rounded" alt="meal2" width="100%">
+            </div>
+            <div class="mt-4 p-3 px-5">
+              <button class="btn btn-sm bg-success rounded btn-success btn-block">VEGAN</button>
+              <button class=" btn btn-sm bg-WARNING rounded btn-success">PALED</button>
+              <h3 style="font-weight: bold;">Avocada Salad</h3>
+
+              <p class="mt-4"><i class="fa-solid fa-fire" style="color: orangered; font-size: 20px;"></i> 400 calories
+              </p>
+
+              <p>
+                <i class="fa-solid fa-utensils" style="color:orangered; font-size:20px;"></i> NutriScore 92
+              </p>
+
+              <p><i class="fa-solid fa-star" style="color:orangered; font-size:20px;"></i>4.8 Rating (441)</p>
+
+            </div>
+          </div>
+        </div>
+        <!--card3-->
+        <div class="col-sm-4 p-4 ">
+          <div>
+            <div class="px-5  py-3">
+              <h3 style="font-weight: bold;">Works with any diet:</h3>
+              <ul type="none">
+                <li class="mt-3"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Vegetarian</li>
+                <li class="mt-3"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Vegan</li>
+                <li class="mt-3"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Pescatarian</li>
+                <li class="mt-3"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Gluten-free</li>
+                <li class="mt-3"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Lactose-free</li>
+                <li class="mt-3"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Keto</li>
+                <li class="mt-3"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Paleo</li>
+                <li class="mt-3"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Low GODMAP</li>
+                <li class="mt-3"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Kid-friendly</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- text-->
+        <div class="text-center mt-5">
+
+          <a href="#"><strong class="underline-text" style="color: #ff5f1f" ;>See all recipes <i
+                class="fa-solid fa-arrow-right"></i></strong></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- reviews-->
+    <div class="container-fluid mt-5">
+      <div class="row p-5">
+        <div class="col-sm-6 p-3">
+          <P style="color: #ff5f1f; font-weight: bold;">TESTIMONIALS</P>
+          <h1><strong>Once you try it, you</strong></h1>
+          <h1><strong>can't go back</strong></h1>
+          <div class="row mt-5">
+            <div class="col-sm-6 p-3">
+              <img class="rounded-circle" src="Omnifood Images/customers/dave.jpg" alt="dave" width="20%" height="60px">
+              <p class="mt-3">Inexpensive, healthy and great-tasting meals, without even having to order manually! It
+                feels truly magical. </p>
+              <p class="text-secondary">-Dave Bryson</p>
+            </div>
+
+            <div class="col-sm-6 p-3">
+              <img class="rounded-circle" src="Omnifood Images/customers/ben.jpg" alt="ben" width="20%" height="60px">
+              <p class="mt-3">The Al algorithm is crazy good, it chooses the right meals for me every time. It's amazing
+                not to worry about food anymore!</p>
+              <p class="text-secondary">-Ben Hadley</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 p-3">
+              <img class="rounded-circle" src="Omnifood Images/customers/steve.jpg" alt="ben" width="20%" height="60px">
+              <p class="mt-3">Omnifood is a life saver! I just started a company. so there's no time for cooking. I
+                couldn't live without my daily meals now!
+              </p>
+              <p class="text-secondary">-Stev Miller</p>
+            </div>
+            <div class="col-sm-6 p-3">
+              <img class="rounded-circle" src="Omnifood Images/customers/hannah.jpg" alt="ben" width="20%"
+                height="60px">
+              <p class="mt-3">I got Omnifood for the whole family, and it frees up so much time! Plus, everything is
+                organic and vegan and without plastic.
+              </p>
+              <p class="text-secondary">-Hannah Smith</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!--Omnifood items-->
+        <div class="col-sm-6 p-5">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-1.jpg" alt="abc" width="100%" height="200px">
+            </div>
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-2.jpg" alt="abc" width="100%" height="200px">
+            </div>
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-3.jpg" alt="abc" width="100%" height="200px">
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-4.jpg" alt="abc" width="100%" height="200px">
+            </div>
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-5.jpg" alt="abc" width="100%" height="200px">
+            </div>
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-6.jpg" alt="abc" width="100%" height="200px">
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-7.jpg" alt="abc" width="100%" height="200px">
+            </div>
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-8.jpg" alt="abc" width="100%" height="200px">
+            </div>
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-9.jpg" alt="abc" width="100%" height="200px">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-10.jpg" alt="abc" width="100%" height="200px">
+            </div>
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-11.jpg" alt="abc" width="100%" height="200px">
+            </div>
+            <div class="col-sm-4">
+              <img src="Omnifood Images/gallery/gallery-12.jpg" alt="abc" width="100%" height="200px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Price text-->
+    <div class="container mt-5">
+      <div class="text-start">
+        <p>
+          <spam class="text" style="color: #ff5f1f;"><strong>PRICING</strong></spam>
+        </p>
+        <p class="display-5" style="font-weight: bold;"><strong>Eating well without breaking the bank</strong></p>
+      </div>
+
+      <!--Price card1-->
+      <div class="row mt-5 justify-content-center">
+
+        <div class="col-sm-3">
+          <div class="rounded shadow" style="background-color: white;">
+
+            <div class="text-center p-3" style="color: #ff5f1f;">
+              <p><strong>STARTER</strong></p>
+            </div>
+            <h1 class="fw-bold text-center">$399</h1>
+            <p class="text-center">per month. That's just $13 per meal!</p>
+
+            <div class="mt-4 p-3 px-5">
+              <p class="mt-4"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> 1 meals per day
+              </p>
+
+              <p class="mt-4"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Order from 11am to 9pm</p>
+
+              <p class="mt-4"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Delivery is free</p>
+
+              <p class="mt-4"><i class="fa-solid fa-xmark" style="color: #ff5f1f;">ㅤㅤㅤㅤㅤ</i>
+              </p>
+              <div class="text-center p-4">
+                <button class="p-2 btn btn-md rounded btn-success">Start eating well</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!--Price card2-->
+        <div class="col-sm-3">
+          <div class="rounded shadow" style="background-color: wheat;">
+            <div class="text-center p-3" style="color: #ff5f1f;">
+              <p><strong>COMPLETE</strong></p>
+            </div>
+
+            <h1 class="fw-bold text-center">$649</h1>
+            <p class="text-center">per month. That's just $11 per meal!</p>
+
+            <div class="mt-4 p-3 px-4">
+              <p class="mt-4"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i><strong> 2 meals</strong> per day
+              </p>
+
+              <p class="mt-4"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Order<strong> 24/7</strong></p>
+
+              <p class="mt-4"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Delivery is free</p>
+
+              <p class="mt-4"><i class="fa-solid fa-check" style="color: #ff5f1f;"></i> Get access to latest recipes
+              </p>
+              <div class="text-center p-4">
+                <button class="p-2 btn btn-md rounded btn-success">Start eating well</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--icons-->
+        <div class="text-center mt-5">
+          <p>Price include all applicable taxes. you can cancel at any time. Both plans include the following:</p>
+        </div>
+
+        <div class="container mt-5">
+          <div class="row p-2">
+            <div class="col-sm-3">
+              <img src="Omnifood Images/favicon.png" alt="icon" width="20%" height="60px">
+              <h3 class="mt-3"><strong>Never cook again!</strong></h3>
+              <p>Our subscriptions cover 365 days per year, even Including major holidays
+                .</p>
+            </div>
+            <div class="col-sm-3 ">
+              <img src="Omnifood Images/apple.png" alt="icon" width="20%" height="60px">
+              <h3 class="mt-3"><strong>Local and organic</strong></h3>
+              <p>Dur cooks only use local fresh, and organic products to prepare your meals.
+              </p>
+            </div>
+            <div class="col-sm-3 ">
+              <img src="Omnifood Images/no waste.png" alt="icon" width="20%" height="50px">
+              <h3 class="mt-3"><strong>No waste</strong></h3>
+              <p>All our partners only use reusable containers to package all your meats.
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <i class="fa-regular fa-circle-pause" style="color: #ff5f1f; font-size: 60px;"></i>
+              <h3 class="mt-3"><strong>Pause anytime</strong></h3>
+              <p>Going on vacation? Just pause your subscription. and we refund unused days.</p>
+            </div>
+          </div>
+        </div>
+
+        <!--input form-->
+        <div class="row mt-5 g-0">
+          <div class="col-sm-8 rounded-3 p-5" style="background-color: #ff5f1f;">
+            <p class="display-5" style="font-weight: bold;"><strong>Get your first meal for free!</strong></p>
+            <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or
+              pause anytime. And the first meal is on us!</p>
+
+            <div class="row align-items-center">
+              <div class="col-sm-4">
+                <label for="name"><strong>Full Name</strong></label>
+                <input class="form-control" type="text" placeholder="John Smith">
+              </div>
+
+              <div class="col-sm-4">
+                <label for="email"><strong>Email address</strong></label>
+                <input class="form-control" type="email" placeholder="me@gmail.com">
+              </div>
+            </div>
+
+            <div class="row mt-5 mb-5">
+              <div class="col-sm-4">
+                <label for="name"><strong>Where did you hear from us?</strong></label>
+                <select class=" form-select" type="select"></select>
+              </div>
+
+              <div class="col-sm-4 mt-4">
+                <button class="form-control text-white" style="background-color: rgb(34, 13, 13);"><strong>Sign up
+                    now</strong></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <img src="Omnifood Images/eating.jpg" alt="eating" class="img-fluid rounded-3">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-1 border-secondary mt-5 mb-5">
+
+    <!--Footer-->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="Omnifood Images/omnifood-logo.png" alt="omnifood logo" width="200px">
+          <div class="icons mt-4">
+            <i class="fa-brands fa-instagram mx-3" style="font-size: 30px;"></i>
+            <i class="fa-brands fa-facebook mx-3" style="font-size: 30px;"></i>
+            <i class="fa-brands fa-twitter mx-3" style="font-size: 30px;"></i>
+          </div>
+          <div class="mt-5 mb-5">
+            <p>copyright ©2027 by Omnifood,<br>
+              Inc. All rights reserved.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-2 g-3">
+          <strong style="font-size:20px">Contact us</strong>
+          <p class="mt-4">623 Harrison st., 2nd floor.,<br>San Francisco, CA 94107
+          </p>
+          <P> 415-201-6370 <br> hello@omnifood.com</P>
+        </div>
+
+
+        <div class="col-sm-2">
+          <strong style="font-size:20px">Account</strong>
+          <p class="mt-4">Create account</p>
+          <p>Sign in</p>
+          <p>iOS</p>
+          <p>Android app</p>
+        </div>
+
+        <div class="col-sm-2">
+          <strong style="font-size:20px">Company</strong>
+          <p class="mt-4">About Omnifood</p>
+          <p>For Business</p>
+          <p>Cooking partners</p>
+          <p>Careers</p>
+        </div>
+
+        <div class="col-md-3">
+          <strong style="font-size:20px">Resources</strong>
+          <p class="mt-4">Recipes</p>
+          <p>Help center</p>
+          <p>Privacy & terms</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </main>
+</body>
+
+</html>
