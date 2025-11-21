@@ -1,1 +1,17 @@
-# Omnifood_website
+Omnifood Website
+
+A fully responsive modern landing page inspired by the Omnifood project.  
+This website is built using HTML5, CSS3, and Bootstrap, focusing on clean design, mobile responsiveness, and smooth user experience.
+
+ 🥗 Features
+- Mobile-first, fully responsive layout  
+- Clean UI with modern typography  
+- Bootstrap-based grid system  
+- Smooth navigation and section layout  
+- Food subscription promotional design
+
+ 💻 Technologies Used
+- HTML5
+- CSS3
+- Bootstrap 5
+
